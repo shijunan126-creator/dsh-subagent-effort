@@ -1,0 +1,33 @@
+{
+    "name":  "@shijunan123/dsh-subagent-effort",
+    "version":  "0.4.2",
+    "description":  "DeepSeek Harness plugin: subagents with their own model and reasoning effort 闂?GUI settings card (plugin-owned config file), config defaults, and a parent-model-controlled delegation tool (subagent_select).",
+    "type":  "module",
+    "main":  "lib/index.js",
+    "files":  [
+                  "lib",
+                  "cordis.patch.yml",
+                  "README.md"
+              ],
+    "license":  "MIT",
+    "keywords":  [
+                     "dsh-plugin",
+                     "deepseek-harness",
+                     "subagent",
+                     "reasoning-effort"
+                 ],
+    "publishConfig":  {
+                          "access":  "public"
+                      },
+    "dependencies":  {
+                         "@deepseek-ai/dsh-home-paths":  "^0.1.0-rc.5",
+                         "@deepseek-ai/dsh-tools":  "^0.1.0-rc.5",
+                         "@deepseek-ai/schemastery":  "^3.18.0",
+                         "@shijunan123/dsh-client-ui-subagent-effort":  "workspace:^0.3.0"
+                     },
+    "dsh":  {
+                "bundle":  {
+                               "patch":  "./cordis.patch.yml"
+                           }
+            }
+}

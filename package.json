@@ -1,0 +1,11 @@
+{
+  "name": "dsh-subagent-effort-project",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "devDependencies": {
+    "lightningcss": "^1.32.0",
+    "tsdown": "^0.22.2"
+  }
+}

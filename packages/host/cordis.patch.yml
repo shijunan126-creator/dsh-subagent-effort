@@ -1,0 +1,8 @@
+# dsh-subagent-effort bundle patch: mounts the host plugin and its settings
+# UI row. The plugin stays inert (subagents inherit the parent) until the GUI
+# settings panel or the profile patch layer configures it; see README.md.
+- insert:
+    - id: subagent-effort
+      name: '@shijunan123/dsh-subagent-effort'
+    - id: subagent-effort-ui
+      name: '@shijunan123/dsh-client-ui-subagent-effort'

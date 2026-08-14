@@ -1,0 +1,5 @@
+# Standalone install patch for the settings panel (the host bundle already
+# inserts this row; this file supports installing the panel alone).
+- insert:
+    - id: subagent-effort-ui
+      name: '@shijunan123/dsh-client-ui-subagent-effort'
